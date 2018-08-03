@@ -1,0 +1,87 @@
+@media screen and ( min-width: 355px) and (max-width: 850px) {
+  .Header-Container{
+    margin: 35px;
+  }
+  .Header-Logo {
+    flex-basis: 45%;
+  }
+  .Header-LogoImg {
+    height: 55px;
+  }
+
+  .HR {
+    width: 500px; 
+    height: 4px;
+  }
+
+  .ContainerColors {
+    margin-left: 50px;
+    width: 100px;
+  }
+  .BodyImg{
+    width: 500px;
+    height: 280px;
+  }
+
+  .TittleFeatured {
+    margin-left: 9%;
+  }
+
+  .Projects{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 650px) {
+  .Header-Logo {
+    flex-basis: 75%;
+  }
+
+  .HR {
+    width: 75vw;
+    height: 4px;
+  }
+  
+  .EmptyFiller{
+    width: 0px;
+  }
+  
+  .ContainerBody {
+    flex-direction: column;
+  }
+
+  .BodyImg{
+    margin-left: 5%;
+    width: 300px;
+  }
+
+  .ContainerColors {
+    margin-left: 40px;
+    width: 250px;
+    flex-direction: row;
+  }
+
+  .ColorOne {
+  width: 30px;
+  height: 30px;
+  }
+  .ColorTwo {
+  width: 30px;
+  height: 30px;
+  }
+  .ColorThree {
+  width: 30px;
+  height: 30px;
+  }
+  .ColorText{
+    font-size: 15px;
+  }
+
+  .TittleFeatured {
+    margin-left: 9%;
+  }
+
+  .Projects{
+    flex-direction: column;
+  }
+}

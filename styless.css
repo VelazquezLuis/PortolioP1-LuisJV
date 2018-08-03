@@ -1,0 +1,113 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 1px;
+  padding: 1px;
+  background-color: white;
+  border: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.EmptyFiller{
+  width: 150px;
+}
+/* header */
+.Header-Container, .ContainerBody, .PortfolioLinks, .JustifyContent, .Projects {
+  display: flex;
+  justify-content: center;
+}
+.Header-Logo {
+  flex-basis: 398px;
+}
+
+.Header-LogoImg {
+  height: 60px;
+}
+
+.Header-Info{
+  height: 70px;
+}
+
+.Header-Name{
+  color: #2d3c49;
+}
+.Header-Title{
+  color: #2d3c49;
+
+}
+
+/* horizontal line */
+.HR {
+  
+  width: 628px;   
+  background-color: #7d97ad;
+  height: 5px;
+}
+/* body  */
+
+.ContainerColors {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+  width: 150px;
+}
+
+.ColorBox{
+padding: 0%;
+}
+.ColorOne {
+  margin-left : 20px;  
+  width: 50px;
+  height: 50px;
+  background: #02b3e4;
+}
+
+
+.ColorTwo {
+  margin-left : 20px;
+  width: 50px;
+  height: 50px;
+  background: #2d3c49;
+}
+
+.ColorThree {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  background: #7d97ad;
+}
+
+.ColorText{
+  color: #7d97ad;
+}
+
+.BodyImg{
+  width: 630px;
+  height: 300px;
+  
+}
+
+/* featured tilte */
+.TittleFeatured {
+  width: 635px;
+ color: #7d97ad;
+}
+
+/* footer */
+
+.box{
+  width: 212px;
+}
+
+.box_link {
+  font-size: 10px;
+  text-decoration: none;
+}
+.BoxImg {
+  width: 207px;
+  height: 200px;
+}
+
+.BoxProjectTitle{
+  color: #2d3c49;
+}
