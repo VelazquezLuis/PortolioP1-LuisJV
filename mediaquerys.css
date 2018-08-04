@@ -19,8 +19,8 @@
     width: 100px;
   }
   .BodyImg{
-    width: 500px;
-    height: 280px;
+    max-width: 100%;
+    height: auto;
   }
 
   .TittleFeatured {
@@ -37,7 +37,7 @@
     flex-basis: 75%;
   }
 
-  .HR {
+  .horizontalRule {
     width: 75vw;
     height: 4px;
   }
@@ -51,8 +51,8 @@
   }
 
   .BodyImg{
-    margin-left: 5%;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
   }
 
   .ContainerColors {
