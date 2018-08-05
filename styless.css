@@ -4,18 +4,24 @@
   box-sizing: border-box;
   margin: 1px;
   padding: 1px;
-  background-color: white;
+  background-color: #ffffff;
   border: 1px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.EmptyFiller{
+.EmptyFiller {
   width: 150px;
 }
+
 /* header */
-.Header-Container, .ContainerBody, .PortfolioLinks, .JustifyContent, .Projects {
+.Header-Container, 
+.ContainerBody, 
+.PortfolioLinks, 
+.JustifyContent, 
+.Projects {
   display: flex;
   justify-content: center;
 }
+
 .Header-Logo {
   flex-basis: 398px;
 }
@@ -24,21 +30,20 @@
   height: 60px;
 }
 
-.Header-Info{
+.Header-Info {
   height: 70px;
 }
 
-.Header-Name{
+.Header-Name {
   color: #2d3c49;
 }
-.Header-Title{
-  color: #2d3c49;
 
+.Header-Title {
+  color: #2d3c49;
 }
 
 /* horizontal line */
-.horizontalRule {
-  
+.horizontalRule {  
   width: 628px;   
   background-color: #7d97ad;
   height: 5px;
@@ -52,16 +57,16 @@
   width: 150px;
 }
 
-.ColorBox{
+.ColorBox {
 padding: 0%;
 }
+
 .ColorOne {
   margin-left : 20px;  
   width: 50px;
   height: 50px;
   background: #02b3e4;
 }
-
 
 .ColorTwo {
   margin-left : 20px;
@@ -77,11 +82,11 @@ padding: 0%;
   background: #7d97ad;
 }
 
-.ColorText{
+.ColorText {
   color: #7d97ad;
 }
 
-.BodyImg{
+.BodyImg {
   width: 630px;
   height: 300px;
   
@@ -95,7 +100,7 @@ padding: 0%;
 
 /* footer */
 
-.box{
+.box {
   width: 212px;
 }
 
@@ -103,11 +108,12 @@ padding: 0%;
   font-size: 10px;
   text-decoration: none;
 }
+
 .BoxImg {
   width: 207px;
   height: 200px;
 }
 
-.BoxProjectTitle{
+.BoxProjectTitle {
   color: #2d3c49;
 }

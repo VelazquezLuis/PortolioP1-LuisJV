@@ -2,9 +2,11 @@
   .Header-Container{
     margin: 35px;
   }
+  
   .Header-Logo {
     flex-basis: 45%;
   }
+
   .Header-LogoImg {
     height: 55px;
   }
@@ -18,7 +20,8 @@
     margin-left: 50px;
     width: 100px;
   }
-  .BodyImg{
+
+  .BodyImg {
     max-width: 100%;
     height: auto;
   }
@@ -27,7 +30,7 @@
     margin-left: 9%;
   }
 
-  .Projects{
+  .Projects {
     flex-direction: column;
   }
 }
@@ -42,7 +45,7 @@
     height: 4px;
   }
   
-  .EmptyFiller{
+  .EmptyFiller {
     width: 0px;
   }
   
@@ -50,7 +53,7 @@
     flex-direction: column;
   }
 
-  .BodyImg{
+  .BodyImg {
     max-width: 100%;
     height: auto;
   }
@@ -65,14 +68,17 @@
   width: 30px;
   height: 30px;
   }
+
   .ColorTwo {
   width: 30px;
   height: 30px;
   }
+
   .ColorThree {
   width: 30px;
   height: 30px;
   }
+
   .ColorText{
     font-size: 15px;
   }
@@ -81,7 +87,7 @@
     margin-left: 9%;
   }
 
-  .Projects{
+  .Projects {
     flex-direction: column;
   }
 }
